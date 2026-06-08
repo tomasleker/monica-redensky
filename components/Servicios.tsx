@@ -1,31 +1,43 @@
 import AnimateIn from "./AnimateIn";
-import { Brain, Lightbulb, Users, Monitor, HeartHandshake } from "lucide-react";
+import {
+  Brain,
+  Lightbulb,
+  Sprout,
+  User,
+  Monitor,
+  HeartHandshake,
+} from "lucide-react";
 
 const servicios = [
   {
-    icon: Brain,
-    title: "Psicoanálisis",
-    description: "Atención clínica individual — adolescentes y adultos",
+    icon: Sprout,
+    title: "Adolescencia",
+    description: "Acompañamiento en una etapa clave de cambios y crecimiento",
   },
   {
-    icon: Lightbulb,
-    title: "Terapia cognitivo conductual",
-    description: "TCC para adolescentes y adultos",
-  },
-  {
-    icon: Users,
-    title: "Orientación familiar",
-    description: "Crianza, vínculos y situaciones de crisis",
-  },
-  {
-    icon: Monitor,
-    title: "Sesiones virtuales",
-    description: "Flexibilidad horaria, desde cualquier lugar",
+    icon: User,
+    title: "Adultos",
+    description: "Atención clínica individual en psicoanálisis y TCC",
   },
   {
     icon: HeartHandshake,
     title: "Adultos mayores",
     description: "Discapacidad y acompañamiento",
+  },
+  {
+    icon: Brain,
+    title: "Psicoanálisis",
+    description: "Enfoque clínico para elaborar conflictos y vínculos",
+  },
+  {
+    icon: Lightbulb,
+    title: "Terapia cognitivo conductual",
+    description: "Herramientas concretas para ansiedad, crisis y cambios",
+  },
+  {
+    icon: Monitor,
+    title: "Sesiones virtuales",
+    description: "Flexibilidad horaria, desde cualquier lugar",
   },
 ];
 
@@ -38,8 +50,8 @@ export default function Servicios() {
             Servicios
           </h2>
           <p className="mt-4 max-w-2xl text-lg text-charcoal/70">
-            Psicoanálisis, terapia cognitivo conductual y acompañamiento
-            profesional para adolescentes, adultos y familias.
+            Especialista en adultos, adultos mayores y adolescencia. Psicoanálisis,
+            TCC y acompañamiento profesional en consultorio virtual.
           </p>
         </AnimateIn>
 

@@ -26,12 +26,12 @@ export default function SobreMi() {
         <div className="mt-10 grid gap-10 lg:grid-cols-2 lg:gap-16">
           <AnimateIn delay={0.1}>
             <p className="text-lg leading-relaxed text-charcoal/80">
-              Soy psicóloga con más de 28 años de experiencia en psicoanálisis,
-              terapia cognitivo conductual (TCC) y atención clínica en consultorio
-              privado. Acompaño a adolescentes, adultos y familias en procesos de
-              autoconocimiento, crisis y cambio. Hoy ofrezco sesiones virtuales
-              individuales con dedicación, confidencialidad y un espacio seguro
-              para pensar y elaborar lo que te preocupa.
+              Soy psicóloga especialista en adultos, adultos mayores y adolescencia,
+              con más de 28 años de experiencia en psicoanálisis, terapia cognitivo
+              conductual (TCC) y atención clínica en consultorio privado. Acompaño
+              procesos de autoconocimiento, crisis y cambio con dedicación,
+              confidencialidad y un espacio seguro para pensar y elaborar lo que
+              te preocupa.
             </p>
             <span className="mt-6 inline-block rounded-full bg-sage/10 px-4 py-2 text-sm font-semibold text-sage">
               M.N. 28353 — UBA

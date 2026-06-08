@@ -28,6 +28,11 @@ const testimonios = [
       "Lo que más valoro es su trayectoria. Se nota que trabajó en contextos muy distintos y eso le da una profundidad que no encontré en otros profesionales.",
     autor: "Paciente adulto, 55 años",
   },
+  {
+    texto:
+      "Mi hija adolescente empezó terapia con Monica y fue un antes y un después. Supo generar confianza desde la primera sesión y nos orientó como familia para acompañarla mejor.",
+    autor: "Madre, CABA",
+  },
 ];
 
 export default function Testimonios() {
@@ -50,11 +55,7 @@ export default function Testimonios() {
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {testimonios.map((testimonio, index) => (
-            <AnimateIn
-              key={testimonio.autor}
-              delay={index * 0.08}
-              className={index === 4 ? "sm:col-span-2 lg:col-span-1" : ""}
-            >
+            <AnimateIn key={testimonio.autor} delay={index * 0.08}>
               <div className="flex h-full flex-col rounded-2xl bg-white p-6 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-soft">
                 <Quote className="mb-3 h-6 w-6 text-sand" />
                 <p className="flex-1 italic leading-relaxed text-charcoal/75">

@@ -37,17 +37,23 @@ export default function Hero() {
           {...fadeUp}
         >
           <p className="mb-4 inline-block rounded-full bg-sage/10 px-4 py-1.5 text-sm font-medium text-sage">
-            Psicoanálisis y TCC — Lic. en Psicología M.N. 28353
+            Lic. en Psicología — M.N. 28353
           </p>
           <h1 className="font-display text-4xl font-semibold leading-tight text-charcoal sm:text-5xl lg:text-[3.25rem]">
             Más de 28 años acompañando procesos de cambio
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-charcoal/70 lg:text-xl">
-            Sesiones virtuales de psicoanálisis y terapia cognitivo conductual — Adolescentes y adultos
+            Especialista en adultos, adultos mayores y adolescencia — Psicoanálisis y TCC en sesiones virtuales
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
+            <span className="rounded-full border border-sand/40 bg-white px-4 py-1.5 text-sm font-medium text-charcoal/80">
+              Adultos
+            </span>
+            <span className="rounded-full border border-sand/40 bg-white px-4 py-1.5 text-sm font-medium text-charcoal/80">
+              Adultos mayores
+            </span>
             <span className="rounded-full border border-sage/30 bg-sage/5 px-4 py-1.5 text-sm font-medium text-sage">
-              Consultorio privado virtual
+              Adolescencia
             </span>
           </div>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
