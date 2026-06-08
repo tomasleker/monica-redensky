@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "Monica Redensky — Psicóloga",
     description:
       "Más de 28 años acompañando procesos de cambio. Sesiones virtuales.",
-    url: "https://tu-proyecto.vercel.app",
+    url: "https://monica-redensky.vercel.app",
     siteName: "Monica Redensky Psicóloga",
     locale: "es_AR",
     type: "website",
