@@ -16,13 +16,13 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Monica Redensky — Psicóloga | Sesiones Virtuales",
+  title: "Monica Redensky — Psicoanálisis | Sesiones Virtuales",
   description:
-    "Licenciada en Psicología (M.N. 28353) con más de 28 años de experiencia. Sesiones virtuales para niños, adolescentes y adultos. Buenos Aires.",
+    "Psicoanálisis con Lic. Monica Redensky (M.N. 28353). Más de 28 años de experiencia y +200 pacientes atendidos. Sesiones virtuales para niños, adolescentes y adultos. Buenos Aires.",
   openGraph: {
-    title: "Monica Redensky — Psicóloga",
+    title: "Monica Redensky — Psicoanálisis",
     description:
-      "Más de 28 años acompañando procesos de cambio. Sesiones virtuales.",
+      "Más de 28 años y +200 pacientes atendidos. Sesiones virtuales de psicoanálisis.",
     url: "https://monica-redensky.vercel.app",
     siteName: "Monica Redensky Psicóloga",
     locale: "es_AR",

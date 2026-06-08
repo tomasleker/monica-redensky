@@ -4,7 +4,8 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import AnimateIn from "./AnimateIn";
-import { Mail, MessageCircle, Send, CheckCircle } from "lucide-react";
+import { Mail, Send, CheckCircle } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon";
 
 interface ContactFormData {
   nombre: string;
@@ -234,8 +235,8 @@ export default function Contacto() {
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 rounded-2xl border border-charcoal/5 bg-cream p-6 transition-all duration-300 hover:border-sage/20 hover:shadow-card"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-sage/10 transition-colors group-hover:bg-sage/20">
-                  <MessageCircle className="h-6 w-6 text-sage" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366]/10 transition-colors group-hover:bg-[#25D366]/20">
+                  <WhatsAppIcon className="h-6 w-6 text-[#25D366]" />
                 </div>
                 <div>
                   <p className="font-semibold text-charcoal">WhatsApp</p>

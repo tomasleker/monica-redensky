@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import SobreMi from "@/components/SobreMi";
 import Servicios from "@/components/Servicios";
-import Trayectoria from "@/components/Trayectoria";
 import ObrasSociales from "@/components/ObrasSociales";
 import Testimonios from "@/components/Testimonios";
 import Contacto from "@/components/Contacto";
@@ -17,7 +16,6 @@ export default function Home() {
         <Hero />
         <SobreMi />
         <Servicios />
-        <Trayectoria />
         <ObrasSociales />
         <Testimonios />
         <Contacto />

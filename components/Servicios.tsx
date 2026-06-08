@@ -4,8 +4,8 @@ import { Brain, Users, Monitor, HeartHandshake } from "lucide-react";
 const servicios = [
   {
     icon: Brain,
-    title: "Psicoterapia individual",
-    description: "Niños, adolescentes y adultos",
+    title: "Psicoanálisis",
+    description: "Atención clínica individual — niños, adolescentes y adultos",
   },
   {
     icon: Users,
@@ -33,8 +33,8 @@ export default function Servicios() {
             Servicios
           </h2>
           <p className="mt-4 max-w-2xl text-lg text-charcoal/70">
-            Acompañamiento profesional adaptado a cada etapa de la vida y a las
-            necesidades de cada persona y familia.
+            Psicoanálisis y acompañamiento profesional adaptado a cada etapa de
+            la vida y a las necesidades de cada persona y familia.
           </p>
         </AnimateIn>
 
