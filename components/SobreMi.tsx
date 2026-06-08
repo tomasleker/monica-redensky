@@ -3,6 +3,7 @@ import { GraduationCap } from "lucide-react";
 
 const educacion = [
   "Licenciatura en Psicología — UBA (1997)",
+  "Postgrado en TCC — UBA",
   "Postgrado en Psicología Social — UNQ",
   "Formación en EDITTI",
 ];
@@ -25,21 +26,16 @@ export default function SobreMi() {
         <div className="mt-10 grid gap-10 lg:grid-cols-2 lg:gap-16">
           <AnimateIn delay={0.1}>
             <p className="text-lg leading-relaxed text-charcoal/80">
-              Soy psicóloga con más de 28 años de experiencia en psicoanálisis y
-              atención clínica en consultorio privado. He acompañado a más de
-              200 pacientes — niños, adolescentes, adultos y familias — en
-              procesos de autoconocimiento, crisis y cambio. Hoy ofrezco sesiones
-              virtuales individuales con dedicación, confidencialidad y un
-              espacio seguro para pensar y elaborar lo que te preocupa.
+              Soy psicóloga con más de 28 años de experiencia en psicoanálisis,
+              terapia cognitivo conductual (TCC) y atención clínica en consultorio
+              privado. Acompaño a adolescentes, adultos y familias en procesos de
+              autoconocimiento, crisis y cambio. Hoy ofrezco sesiones virtuales
+              individuales con dedicación, confidencialidad y un espacio seguro
+              para pensar y elaborar lo que te preocupa.
             </p>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <span className="inline-block rounded-full bg-sage/10 px-4 py-2 text-sm font-semibold text-sage">
-                M.N. 28353 — UBA
-              </span>
-              <span className="inline-block rounded-full bg-sand/15 px-4 py-2 text-sm font-semibold text-charcoal/75">
-                +200 pacientes atendidos
-              </span>
-            </div>
+            <span className="mt-6 inline-block rounded-full bg-sage/10 px-4 py-2 text-sm font-semibold text-sage">
+              M.N. 28353 — UBA
+            </span>
           </AnimateIn>
 
           <AnimateIn delay={0.2}>

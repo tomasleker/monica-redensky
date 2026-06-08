@@ -16,13 +16,13 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Monica Redensky — Psicoanálisis | Sesiones Virtuales",
+  title: "Monica Redensky — Psicoanálisis y TCC | Sesiones Virtuales",
   description:
-    "Psicoanálisis con Lic. Monica Redensky (M.N. 28353). Más de 28 años de experiencia y +200 pacientes atendidos. Sesiones virtuales para niños, adolescentes y adultos. Buenos Aires.",
+    "Psicoanálisis y terapia cognitivo conductual con Lic. Monica Redensky (M.N. 28353). Más de 28 años de experiencia. Sesiones virtuales para adolescentes y adultos. Buenos Aires.",
   openGraph: {
-    title: "Monica Redensky — Psicoanálisis",
+    title: "Monica Redensky — Psicoanálisis y TCC",
     description:
-      "Más de 28 años y +200 pacientes atendidos. Sesiones virtuales de psicoanálisis.",
+      "Más de 28 años de experiencia. Sesiones virtuales de psicoanálisis y TCC para adolescentes y adultos.",
     url: "https://monica-redensky.vercel.app",
     siteName: "Monica Redensky Psicóloga",
     locale: "es_AR",

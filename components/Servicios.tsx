@@ -1,11 +1,16 @@
 import AnimateIn from "./AnimateIn";
-import { Brain, Users, Monitor, HeartHandshake } from "lucide-react";
+import { Brain, Lightbulb, Users, Monitor, HeartHandshake } from "lucide-react";
 
 const servicios = [
   {
     icon: Brain,
     title: "Psicoanálisis",
-    description: "Atención clínica individual — niños, adolescentes y adultos",
+    description: "Atención clínica individual — adolescentes y adultos",
+  },
+  {
+    icon: Lightbulb,
+    title: "Terapia cognitivo conductual",
+    description: "TCC para adolescentes y adultos",
   },
   {
     icon: Users,
@@ -20,7 +25,7 @@ const servicios = [
   {
     icon: HeartHandshake,
     title: "Adultos mayores",
-    description: "Estimulación cognitiva y acompañamiento",
+    description: "Discapacidad y acompañamiento",
   },
 ];
 
@@ -33,12 +38,12 @@ export default function Servicios() {
             Servicios
           </h2>
           <p className="mt-4 max-w-2xl text-lg text-charcoal/70">
-            Psicoanálisis y acompañamiento profesional adaptado a cada etapa de
-            la vida y a las necesidades de cada persona y familia.
+            Psicoanálisis, terapia cognitivo conductual y acompañamiento
+            profesional para adolescentes, adultos y familias.
           </p>
         </AnimateIn>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {servicios.map((servicio, index) => (
             <AnimateIn key={servicio.title} delay={index * 0.1}>
               <div className="group h-full rounded-2xl border border-charcoal/5 bg-cream p-6 transition-all duration-300 hover:-translate-y-1 hover:border-sage/20 hover:shadow-card">

@@ -18,7 +18,7 @@ interface ContactFormData {
 const motivos = [
   { value: "individual", label: "Individual" },
   { value: "familia", label: "Familia" },
-  { value: "ninos", label: "Niños" },
+  { value: "adolescentes", label: "Adolescentes" },
   { value: "otro", label: "Otro" },
 ];
 
