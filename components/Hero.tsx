@@ -93,7 +93,7 @@ export default function Hero() {
                 src="/monica.jpg"
                 alt="Monica Elena Redensky — Psicóloga"
                 fill
-                className="relative rounded-[2rem] object-cover"
+                className="relative rounded-[2rem] object-contain"
                 priority
                 sizes="(max-width: 768px) 288px, 384px"
                 onError={() => setImageError(true)}
